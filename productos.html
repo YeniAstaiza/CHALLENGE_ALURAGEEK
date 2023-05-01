@@ -6,9 +6,10 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>emprendimiento</title>
+    <title>productos__emprendimiento</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/productos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Prata&family=Raleway:wght@300&display=swap"
@@ -18,7 +19,7 @@ rel="stylesheet">
 <body>
     <header class="cabecera">
         <div class="container">
-            <div class="cabecera__3d__inicio">
+            <div class="cabecera__3d">
                 <a href="index.html" class="logo">
                     <img src="./IMG/logo.png" alt="impresiones 3D" class="logo__imagen">
                     <span class="logo__nombre">Impresiones 3D</span>
@@ -28,39 +29,19 @@ rel="stylesheet">
                     <button type="submit" class="search__img"><img src="../CHANLLEGES_ALURAGEEK/IMG/Vector.png"
                             alt="logosearch"></button>
                 </form>
-                <div class="login__search">
-                    <a href="login.html" class="btn__blanco">Login</a>
-                </div>
             </div>
         </div>
     </header>
 
     <content>
-        <section class="menú"></section>
-
-        <section class="banner">
-            <div class="banner__imagen">
-                <img src="./IMG/banner.avif" alt="img__banner" class="img__banner">
-                <div class="banner__informacion">
-                    <h1 class="banner__titulo">Mes Promocional</h1>
-                    <p class="banner__parrafo">Productos seleccionados con 33% de descuento</p>
-                    <a href="login.html" class="btn__azul">Ver productos</a>
-                </div>
-            </div>
-        </section>
-
-
         <section class="impresiones3D">
             <div class="container">
-                <div class="inicial">
-                <p class="titulo">Impresiones3D</p>
-                    <div class="ver__todo">
-                        <a href="productos.html" class="ver__todo__nombre">Ver todo</a>
-                        <img src="./IMG/flecha.png" alt="flecha">
-                    </div>
+                <div class="agregar">
+                    <div class="agregar">
+                        <a href="agregar_producto.html" class="formulario__boton">Agregar Producto</a>
+                </div>
                 </div>
                 <div class="impresiones3D">
-                   
                     <div class="producto">
                         <div class="producto__img">
                             <img src="http://via.placeholder.com/170x180" alt="" class="img__producto">
@@ -68,9 +49,37 @@ rel="stylesheet">
                         <div class="producto__datos">
                             <p>llavero</p>
                             <p class="precio">$60</p>
-                            <a href="*" class="ver">Ver producto</a>
+                            <p>#1111111</p>
+                        </div>
+                        <div class="agregar__producto">
+                            <a href=""  class="agregar__seleccionar__producto">
+                                <img src="../CHANLLEGES_ALURAGEEK/IMG/eliminar.png" alt="eliminar" class="agregar__eliminar">
+                            </a>
+                            <a href="" class="agregar__seleccionar__producto">
+                                <img src="../CHANLLEGES_ALURAGEEK/IMG/agregar.png" alt="agregar" class="agregar__seleccionar">
+                            </a>
                         </div>
                     </div>
+
+                    <div class="producto">
+                        <div class="producto__img">
+                            <img src="http://via.placeholder.com/170x180" alt="" class="img__producto">
+                        </div>
+                        <div class="producto__datos">
+                            <p>llavero</p>
+                            <p class="precio">$60</p>
+                            <p>#1111111</p>
+                        </div>
+                        <div class="agregar__producto">
+                            <a href="" class="agregar__eliminar__producto">
+                                <img src="../CHANLLEGES_ALURAGEEK/IMG/eliminar.png" alt="eliminar" class="agregar__eliminar">
+                            </a>
+                            <a href="" class="agregar__seleccionar__producto">
+                                <img src="../CHANLLEGES_ALURAGEEK/IMG/agregar.png" alt="agregar" class="agregar__seleccionar">
+                            </a>
+                        </div>
+                    </div>
+
 
                    <div class="producto">
                         <div class="producto__img">
@@ -105,18 +114,7 @@ rel="stylesheet">
                         </div>
                     </div>
 
-                   <div class="producto hide-xs">
-                        <div class="producto__img">
-                            <img src="http://via.placeholder.com/170x180" alt="" class="img__producto">
-                        </div>
-                        <div class="producto__datos">
-                            <p>llavero</p>
-                            <p class="precio">$60</p>
-                            <a href="*" class="ver">Ver producto</a>
-                        </div>
-                    </div>
-
-                   <div class="producto hide-xs">
+                   <div class="producto">
                         <div class="producto__img">
                             <img src="http://via.placeholder.com/170x180" alt="" class="img__producto">
                         </div>
@@ -133,12 +131,6 @@ rel="stylesheet">
         <section class="personalizados">
             <div class="container">
                 <div class="inicial">
-                    <p class="titulo">Perzonalizados</p>
-                        <div class="ver__todo">
-                            <a href="productos.html" class="ver__todo__nombre">Ver todo</a>
-                            <img src="./IMG/flecha.png" alt="flecha">
-                        </div>
-                    </div>
                 <div class="personalizados">
                    
                     <div class="producto">
@@ -148,7 +140,7 @@ rel="stylesheet">
                         <div class="producto__datos">
                             <p>llavero</p>
                             <p class="precio">$60</p>
-                            <a href="*" class="ver">Ver producto</a>
+                            <p>#1111111</p>
                         </div>
                     </div>
 
@@ -185,7 +177,7 @@ rel="stylesheet">
                         </div>
                     </div>
 
-                   <div class="producto hide-xs">
+                   <div class="producto">
                         <div class="producto__img">
                             <img src="http://via.placeholder.com/170x180" alt="" class="img__producto">
                         </div>
@@ -196,7 +188,7 @@ rel="stylesheet">
                         </div>
                     </div>
 
-                   <div class="producto hide-xs">
+                   <div class="producto">
                         <div class="producto__img">
                             <img src="http://via.placeholder.com/170x180" alt="" class="img__producto">
                         </div>
@@ -212,15 +204,7 @@ rel="stylesheet">
 
         <section class="elementos">
             <div class="container">
-                <div class="inicial">
-                    <p class="titulo">Elementos practicos</p>
-                        <div class="ver__todo">
-                            <a href="productos.html" class="ver__todo__nombre">Ver todo</a>
-                            <img src="./IMG/flecha.png" alt="flecha">
-                        </div>
-                    </div>
                 <div class="elementos">
-
                     <div class="producto">
                         <div class="producto__img">
                             <img src="http://via.placeholder.com/170x180" alt="" class="img__producto">
@@ -265,7 +249,7 @@ rel="stylesheet">
                         </div>
                     </div>
 
-                   <div class="producto hide-xs">
+                   <div class="producto">
                         <div class="producto__img">
                             <img src="http://via.placeholder.com/170x180" alt="" class="img__producto">
                         </div>
@@ -276,7 +260,7 @@ rel="stylesheet">
                         </div>
                     </div>
 
-                   <div class="producto hide-xs">
+                   <div class="producto">
                         <div class="producto__img">
                             <img src="http://via.placeholder.com/170x180" alt="" class="img__producto">
                         </div>
@@ -294,7 +278,6 @@ rel="stylesheet">
         <section class="contacto">
             <div class="container">
                 <div class="informacion">
-                    
                     <div class="logo">
                         <a href="./Index.html" class="logo">
                             <img src="./IMG/logo.png" alt="impresiones 3D" class="logo__imagen">
