@@ -56,6 +56,9 @@ body {
     justify-content: space-between;
     margin: 0 0 0 120px;
 }
+.search__movile{
+    display: none;
+}
 
 .search__box{
     border: none;
@@ -216,6 +219,16 @@ body {
 .contacto{
     background: #EAF2FD;
 }
+
+.logo__footer{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.logo__movile{
+    display: none;
+}
 .informacion{
     display: flex;
     flex-direction: row;
@@ -278,7 +291,7 @@ body {
 }
 
 .formulario__textarea{
-    max-width: 100%;
+    max-width: 95%;
     border-radius: 10px;
     border: none;
     resize: none;
@@ -328,6 +341,12 @@ body {
     line-height: 18px;
 }
 
+@media (max-width: 1000px) {
+    .container{
+        max-width: 800px;
+        margin: auto;
+    }
+}
 
 @media (max-width: 768px) {
 
@@ -341,15 +360,269 @@ body {
         width: auto;
     }
     
+    .search__movile{
+        display: none;
+    }
+
     .hide-xs{
         display: none;
     }
     
     .contacto{
         display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+
+    .impresiones3D{
+        gap: 6px;
+    }
+
+    .personalizados{
+        gap: 6px;
+    }
+
+    .elementos{
+        gap:6px
+    }
+
+    .logo__footer{
+        display: none;
+    }
+
+    .logo__movile{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+    }
+
+    .informacion{
+        justify-content: space-around;
+    }
+}
+@media (max-width: 550px) {
+    .informacion{
+        display: block;
+        padding: 0;
+        max-width: 500px;
+    }
+
+    .informacion__navegacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 16px;
+
+    }
+
+    .banner__titulo{
+        font-size: 20px;
+        line-height: 15px;
+        font-weight: 400;
+    }
+
+    .banner__parrafo{
+        font-size: 14px;
+        line-height: 15px;
+        font-weight: 200;
+    }
+
+    .btn__azul{
+            font-size: 12px;
+            padding: 8px 15px;
+    }
+    .contacto__formulario{
+        max-width: 95%;
+    }
+
+    .formulario__contacto{
+        width: 100%;
+    }
+
+    .formulario__textarea{
+        width: 95%;
     }
 }
 
+/*Mobile*/
+@media (max-width: 450px) {
+    .container{
+        max-width: 360px;
+        margin: auto;
+    }
+    .cabecera__3d__inicio{
+        position: relative;
+    }
+    .logo__imagen{
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .logo__nombre{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .search{
+        display: none;
+    }
+
+    .search__movile{
+        display: flex;
+        align-items: center;
+    }
+
+    .search__box__movile{
+        background: #F5F5F5;
+        border-radius: 20px;
+        align-items: center;
+        padding: 1px 8px;
+        height: 30px;
+        line-height: 16px;
+        justify-content: space-between;
+        top: 80px;
+        transition: all .5s;
+        box-sizing: border-box;
+        border: none;
+    }
+    
+    .checkbox{
+        opacity: 0;
+    }
+    .checkbtn {
+        display: block;
+    }
+
+    .search__movile__see{
+        display: none;
+        position: absolute;
+        left: 10%;
+        bottom: 0;
+        background: #F5F5F5;
+        border-radius: 20px;
+    }
+
+    #check:checked ~ .search__movile__see {
+        display: block;
+        transition: all .5s;
+    }
+
+    .search__movile__see form {
+        display: flex;
+        /* flex-direction: row; */
+        /* flex: 1; */
+    }
+    
+    /*login*/
+    .login__search{
+        padding: 8px 20px;
+    }
+
+    .banner__titulo{
+        font-size: 20px;
+        line-height: 15px;
+        font-weight: 400;
+    }
+
+    .banner__parrafo{
+        font-size: 14px;
+        line-height: 15px;
+        font-weight: 200;
+    }
+
+    .btn__azul{
+            font-size: 12px;
+            padding: 8px 15px;
+    }
+
+    .hide-xs{
+        display: none;
+    }
+    
+    .contacto{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+
+    .impresiones3D{
+        gap: 10px;
+    }
+
+    .personalizados{
+        gap: 10px;
+    }
+
+    .elementos{
+        gap:10px
+    }
+
+    .titulo{
+        font-size: 22px;
+    }
+
+    .logo__footer{
+       display: none;
+    }
+
+    .logo__movile{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+    }
+    .informacion{
+        display: block;
+        padding: 0;
+    }
+
+    .informacion__navegacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 16px;
+
+    }
+
+    .contacto__formulario{
+        max-width: 95%;
+    }
+
+    .formulario__contacto{
+        width: 100%;
+    }
+
+    .formulario__textarea{
+        width: 95%;
+    }
+
+    .formulario__boton{
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 360px) {
+    .container{
+        max-width: 350px;
+        margin: auto;
+    }
+
+    .impresiones3D{
+        gap: 5px;
+    }
+
+    .personalizados{
+        gap: 5px;
+    }
+
+    .elementos{
+        gap:5px
+    }
+
+}

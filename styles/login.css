@@ -83,3 +83,21 @@
     background: #4682B4;
     transition: 0.5s;
 }
+
+@media (max-width: 400px){
+    .pag__login .container{
+        max-width: 330px;
+        margin: auto;
+    }
+
+    .pag__login .search{
+        display:flex
+    }
+
+    .inicio__sesion{
+        width: 100%;
+    }
+    .inicio__input{
+        width: auto;
+    }
+}
