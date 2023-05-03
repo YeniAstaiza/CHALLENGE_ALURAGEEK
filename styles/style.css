@@ -165,6 +165,11 @@ body {
     text-decoration: none;
     color: #2A7AE4;
 }
+
+.img__producto{
+    width: 170px;
+    height:180px;
+}
 .impresiones3D{
     display: flex;
     gap:35px;
@@ -278,6 +283,7 @@ body {
     border-radius: 10px;
     border: none;
     padding: 0 8px;
+    background: white;
 }
 
 .formulario__input{
@@ -341,7 +347,7 @@ body {
     line-height: 18px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
     .container{
         max-width: 800px;
         margin: auto;
@@ -603,7 +609,7 @@ body {
 
     .formulario__boton{
         font-size: 14px;
-        padding: 8px;
+        padding: 2px;
     }
 }
 

@@ -98,3 +98,9 @@
     background: #4682B4;
     transition: 0.5s;
 }
+
+@media (max-width: 360px){
+    .nuevo__sesion{
+        width: 95%;
+    }
+}
